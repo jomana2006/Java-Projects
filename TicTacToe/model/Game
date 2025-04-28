@@ -67,7 +67,14 @@ public class Game {
     return true;
   }
   public switchPlayer() {
+    //switches between players
 
+    if (currentPlayer == 'X') {
+        currentPlayer = 'O';
+    }
+    else {
+        currentPlayer = 'X';
+    }
   }
   public getCurrentPlayer() {
 
