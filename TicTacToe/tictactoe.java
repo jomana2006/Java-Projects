@@ -18,7 +18,7 @@ public class TicTacToe {
             if (game.makeMove(row, col)) {
                 if (game.checkWin()) {
                     game.printBoard();
-                    System.out.println("Player " + game.getCurrentPlayer() " wins!")
+                    System.out.println("Player " + game.getCurrentPlayer() + " wins!")
                     break;
                 }
                 if (game.isBoardFull()) {
