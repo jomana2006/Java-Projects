@@ -15,7 +15,7 @@ public class Game {
   }
   public void printBoard() {
     //prints the updated board while playing
-    
+
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
             System.out.print(board[i][j] + " ");
@@ -24,7 +24,14 @@ public class Game {
     }
   }
   public makeMove( int row, int col) {
+    //Lets the player play the game
 
+    if (board[row][col] == '-') {
+        board[row][col] = currentPlayer;
+    }
+    else {
+        System.out.println("Invalid Play.");
+    }
   }
   public checkWin() {
 
