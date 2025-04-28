@@ -1,3 +1,26 @@
 public class Game {
-  
+  private char[][] board; //The game board 3x3
+  private char currentPlayer; //'X' or 'O'
+
+  public initialiseBoard() {
+
+  }
+  public printBoard() {
+
+  }
+  public makeMove( int row, int col) {
+
+  }
+  public checkWin() {
+
+  }
+  public checkTie() {
+
+  }
+  public switchPlayer() {
+
+  }
+  public getCurrentPlayer() {
+    
+  }
 }
